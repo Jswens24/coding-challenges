@@ -24,7 +24,7 @@
 
 
 const nbYear = (popStart, percent, peepCL, maxPop) => {
-    yearsRan = 0;
+    let yearsRan = 0;
     while (popStart < maxPop) {
         popStart = popStart + popStart * (percent / 100) + peepCL
         yearsRan++
